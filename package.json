@@ -1,0 +1,378 @@
+{
+	"name": "Cowboy",
+	"id": "cowboy-theme",
+	"author": "Marc Espín",
+	"version": "1.0.0",
+	"description": "Cowboy theme for Graviton Editor.",
+	"textTheme":"bespin",
+	"fileTheme":"theme.css",
+	"type":"theme",
+	"colorsScheme": {
+		"terminal": {
+			"Background": "white",
+			"Foreground": "black",
+			"Selection": "rgb(180,180,180,0.6)",
+			"Cursor": "black",
+			"CursorAccent": "black",
+			"Black": "",
+			"Red": "",
+			"Green": "",
+			"Yellow": "",
+			"Blue": "",
+			"Magenta": "",
+			"Cyan": "",
+			"White": "",
+			"BrightGreen": "",
+			"BrightYellow": "",
+			"BrightBlue": "",
+			"BrightMagenta": "",
+			"BrightCyan": "",
+			"BrightWhite": ""
+		},
+		"select": {
+			"Background": "rgb(150,150,150,0.30)"
+		},
+		"accent": {
+			"Color": "#d5ca77"
+		},
+		"text": {
+			"Color": "white",
+			"Focused": {
+				"Background": "rgba(150,150,150,0.4)"
+			}
+		},
+		"body": {
+			"Background": "#211d1a"
+		},
+		"titlebar": {
+			"Background": "#211d1a"
+		},
+		"menu": {
+			"Background": "#26221f",
+			"Button": {
+				"Background": "#211d1a",
+				"Hovering": {
+					"Background": "#464443",
+					"Text": "white"
+				},
+				"Text": "white"
+			},
+			"Option": {
+				"Text": "white",
+				"Hovering": {
+					"Background": "#d5ca77",
+					"Text": "black"
+				}
+			},
+			"Divider": "#656359"
+		},
+		"control": {
+			"Buttons": {
+				"Fill": "white",
+				"Hovering": {
+					"Background": "rgba(255,255,255,0.1)"
+				}
+			},
+			"Close": {
+				"Button": {
+					"Hovering": {
+						"Background": "rgba(232,17,35)",
+						"Fill": "white"
+					},
+					"Active": {
+						"Background": "rgba(241,112,122)",
+						"Fill": "black"
+					}
+				}
+			}
+		},
+		"window": {
+			"Background": "#2e2a26",
+			"Icons": {
+				"Fill": "rgb(40,40,40)"
+			},
+			"Border": "rgba(255,255, 255,0.2)"
+		},
+		"contextmenu": {
+			"Background": "#28211C",
+			"Button": {
+				"Background": "transparent",
+				"Text": "white",
+				"Hovering": {
+					"Background": "#d5ca77",
+					"Text": "black"
+				}
+			},
+			"Divider": "rgb(212,212,212)"
+		},
+		"mainpanel": {
+			"Background": "#28211C"
+		},
+		"tabsbar": {
+			"Background": "#211d1a"
+		},
+		"tab": {
+			"Text": "white",
+			"Background": "#211d1a",
+			"Active": {
+				"Text": "white",
+				"Background": "#28211C"
+			},
+			"Hovering": {
+				"Background": "#28211C",
+				"While": {
+					"Dragging": {
+						"Background": "#28211C"
+					}
+				}
+			},
+			"Icon": {
+				"Fill": "white",
+				"Hovering": {
+					"Fill": "rgb(150, 150, 150)"
+				}
+			}
+		},
+		"scrollbar": {
+			"Background": "rgba(0,0,0,0.2)",
+			"Hovering": {
+				"Background": "rgba(0,0,0,0.5)"
+			}
+		},
+		"sidemenu": {
+			"Background": "#28211C",
+			"Section": {
+				"Background": "#28211C"
+			},
+			"Button": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#2e2a26",
+					"Text":"white"
+				},
+				"Active": {
+					"Background": "#d5ca77",
+					"Text": "black"
+				},
+				"Text": "white"
+			},
+			"Searcher": {
+				"Background": "transparent",
+				"Text": "whiet",
+				"Border": "#d5ca77"
+			}
+		},
+		"topmenu": {
+			"Button": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#28211C",
+					"Text":"white"
+				},
+				"Active": {
+					"Background": "#d5ca77",
+					"Text": "black"
+				},
+				"Text": "white"
+			}
+		},
+		"explorer": {
+			"Item": {
+				"Text": "white",
+				"Hovering": {
+					"Background": "rgba(150,150,150,0.6)"
+				},
+				"Selected": {
+					"Background": "rgba(150,150,150,0.3)"
+				},
+				"Arrow": {
+					"Background": "#ababab"
+				},
+				"Git": {
+					"Modified": {
+						"Text": "#d695dc",
+						"Indicator": "#d695dc"
+					},
+					"Not": {
+						"Added": {
+							"Text": "#81b0f7",
+							"Indicator": "#81b0f7"
+						}
+					},
+					"Indicator": {
+						"Text": "white"
+					},
+					"Created": {
+						"Text": "rgb(199, 69, 0)",
+						"Indicator": "rgb(199, 69, 0)"
+					},
+					"Renamed": {
+						"Text": "rgb(0, 54, 225)",
+						"Indicator": "rgb(0, 54, 225)"
+					}
+				}
+			}
+		},
+		"card": {
+			"Background": "#28211C"
+		},
+		"button": {
+			"Background": "#a69b49",
+			"Text": "black",
+			"Important": {
+				"Background": "#d5ca77",
+				"Text": "black"
+			}
+		},
+		"radio": {
+			"Hovering": {
+				"Background": "#2e2a26"
+			},
+			"Circle": {
+				"Background": "#2e2a26",
+				"Border": "#5a5959",
+				"Hovering": {
+					"Border": "#28211C"
+				}
+			}
+		},
+		"file": {
+			"Not": {
+				"Saved": {
+					"Indicator": "black",
+					"Hovering": {
+						"Indicator": "#0066FF"
+					}
+				}
+			}
+		},
+		"editor": {
+			"Dialog": {
+				"Background": "#211d1a",
+				"Text": "white"
+			},
+			"Tooltip": {
+				"Background": "#211d1a",
+				"Text": "white"
+			}
+		},
+		"statusbar": {
+			"Background": "#d5ca77",
+			"Border": "#d5ca77",
+			"Item": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "rgb(0,0,0,0.1)",
+					"Text": "black"
+				},
+				"Important": {
+					"Background": "#FFAB09",
+					"Text": "black"
+				},
+				"Text": "black",
+				"Icon": {
+					"Background": "black"
+				}
+			},
+			"Git": {
+				"Item": {
+					"Text": "black",
+					"Modified": {
+						"Text": "rgb(40, 40, 40)"
+					}
+				}
+			}
+		},
+		"input": {
+			"Background": "transparent",
+			"Text": "black",
+			"Border": "#CFCFCF"
+		},
+		"splash": {
+			"Screen": {
+				"Text": "black",
+				"Background": "white"
+			}
+		},
+		"command": {
+			"Prompt": {
+				"Input": {
+					"Background": "#2e2a26",
+					"Text": "white"
+				},
+				"Background": "#28211C",
+				"Option": {
+					"Background": "transparent",
+					"Active": {
+						"Background": "#d5ca77",
+						"Text": "black"
+					},
+					"Text": "white"
+				}
+			}
+		},
+		"notification": {
+			"Background": "rgb(242,242,242)",
+			"Title": {
+				"Text": "black"
+			},
+			"Content": {
+				"Text": "black"
+			},
+			"Button": {
+				"Background": "rgb(220,220,220)"
+			}
+		},
+		"panel": {
+			"Border": "rgba(255,255, 255,0.2)"
+		},
+		"switch": {
+			"Background": "#2e2a26",
+			"Indicator": {
+				"Activated": {
+					"Background": "#d5ca77"
+				},
+				"Desactivated": {
+					"Background": "rgba(150,150,150,0.8)"
+				}
+			}
+		},
+		"slider": {
+			"Background": "#2e2a26",
+			"Thumb": {
+				"Background": "#d5ca77"
+			},
+			"Filled": {
+				"Background": "#d5ca77"
+			}
+		},
+		"loader": {
+			"Background": "black"
+		},
+		"sidebar": {
+			"Icons": {
+				"Fill": "rgb(130,130,130)",
+				"Active": {
+					"Fill": "rgb(150,150,150)"
+				},
+				"Hovering": {
+					"Fill": "rgb(150,150,150)"
+				}
+			},
+			"Icon": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "rgba(255,255,255,0.2)"
+				},
+				"Active": {
+					"Background": "#13120f"
+				}
+			},
+			"Background": "#28211C",
+			"Decorator": {
+				"Color": "black",
+				"Background": "#d695dc"
+			}
+		}
+	}
+}
