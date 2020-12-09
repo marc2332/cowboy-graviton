@@ -4,9 +4,12 @@
 	"author": "Marc Espín",
 	"version": "1.0.0",
 	"description": "Cowboy theme for Graviton Editor.",
-	"textTheme":"bespin",
-	"fileTheme":"theme.css",
-	"type":"theme",
+	"textTheme": "bespin",
+	"fileTheme": "theme.css",
+	"type": "theme",
+	"scripts": {
+		"build": "gvsdk  --project . --target theme --mode release"
+	},
 	"colorsScheme": {
 		"terminal": {
 			"Background": "white",
@@ -148,7 +151,7 @@
 				"Background": "transparent",
 				"Hovering": {
 					"Background": "#2e2a26",
-					"Text":"white"
+					"Text": "white"
 				},
 				"Active": {
 					"Background": "#d5ca77",
@@ -167,7 +170,7 @@
 				"Background": "transparent",
 				"Hovering": {
 					"Background": "#28211C",
-					"Text":"white"
+					"Text": "white"
 				},
 				"Active": {
 					"Background": "#d5ca77",
@@ -374,5 +377,8 @@
 				"Background": "#d695dc"
 			}
 		}
+	},
+	"devDependencies": {
+		"@gveditor/sdk": "^0.4.6"
 	}
 }
