@@ -129,7 +129,7 @@
 			"Icon": {
 				"Fill": "white",
 				"Hovering": {
-					"Fill": "rgb(150, 150, 150)"
+					"Fill": "rgb(200, 200, 200)"
 				}
 			}
 		},
@@ -239,9 +239,9 @@
 		"file": {
 			"Not": {
 				"Saved": {
-					"Indicator": "black",
+					"Indicator": "white",
 					"Hovering": {
-						"Indicator": "#0066FF"
+						"Indicator": "rgba(200, 200, 200)"
 					}
 				}
 			}
